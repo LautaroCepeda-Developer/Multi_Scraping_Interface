@@ -1,4 +1,4 @@
-# Clarification on the use of this project
+# Disclaimer
 
 #### This project is intended solely for educational purposes and to demonstrate technical skills in the field of web scraping and data mining. The information obtained through this script will not be used for commercial purposes, nor will it be shared or distributed under any circumstances.
 
@@ -7,7 +7,7 @@
 #### This repository is not responsible for the misuse or inappropriate use of the information obtained through the use of this script. Please use this tool responsibly and ethically.
 
 
-# Aclaración sobre el uso de este proyecto
+# Descargo de responsabilidad
 
 #### Este proyecto se realiza únicamente con fines educativos y con el objetivo de demostrar habilidades técnicas en el área de web scraping y data mining. La información obtenida a través de este script no se utilizará con fines comerciales, ni se compartirá o distribuirá en ninguna circunstancia.
 
