@@ -57,11 +57,17 @@ Rectangle {
         }
 
         Button {
-            id: button
-            x: 435
-            y: 663
+            id: scrapButton
+            x: 415
+            y: 653
+            width: 120
+            height: 50
             text: qsTr("¡Scrap!")
-            hoverEnabled: false
+            scale: 1
+            focus: false
+            antialiasing: false
+            smooth: true
+            hoverEnabled: true
             icon.color: "#ffffff"
             checkable: false
             display: AbstractButton.TextBesideIcon
@@ -69,12 +75,25 @@ Rectangle {
             highlighted: true
             flat: true
         }
+
+        ComboBox {
+            id: dialectCBX
+            x: 20
+            y: 658
+            hoverEnabled: true
+            font.bold: false
+            currentIndex: 0
+            editable: false
+            displayText: "Dialect"
+            textRole: ""
+            flat: true
+        }
     }
 
     states: [
         State {
             name: "clicked"
-            when: button.checked
+            when: scrapButton.checked
         }
     ]
 }
