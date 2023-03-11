@@ -45,7 +45,7 @@ Rectangle {
         height: 718
         color: "#1f1f1f"
         border.color: "#ff88b2"
-        border.width: 3
+        border.width: 2
 
         Text {
             id: fileSettingsLabel
